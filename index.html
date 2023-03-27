@@ -3,13 +3,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Артѣль-мастеровЪ</title>
+    <link rel="stylesheet" href="./style/style.css">
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="#">Home</a>
+            <a href="#" class="active" id="red">Home</a>
             <a href="#">About me</a>
             <a href="#">Skills</a>
             <a href="#">Portfolio</a>
@@ -20,65 +21,149 @@
                 <option value="dark">Тёмная тема</option>
                 <option value="light">Светлая тема</option>
             </select>
-            <div>
-                <div>
-                    <h1>Артѣль-мастеровЪ</h1>
-                    <p>Мастерская всяческих искусств</p>
-                    <div>
-                        <button>ru</button>
-                        <button>eng</button>
-                    </div>
-                </div>
-                <div>
-                    <img src="./images/BSPP2266.png" alt="photo" title="photo">
-                </div>
-
-            </div>
-            <!-- </div> -->
         </nav>
+        <div class="title_block">
+            <div>
+                <h1>Артѣль-мастеровЪ</h1>
+                <p>Мастерская всяческих искусств</p>
+                <div>
+                    <button>ru</button>
+                    <button>eng</button>
+                </div>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="./images/BSPP2266_mobile.png" media="(max-width: 1000px)">
+                    <img src="./images/BSPP2266.png" alt="photo" title="photo">
+                </picture>
+            </div>
+
+        </div>
+        <!-- </div> -->
+
     </header>
 
     <main>
         <section>
             <h3> About me</h3>
-            <p>Hi, I'm Denis – UX/UI designer from Minsk.
-                I'm interested in design and everything connected with it.<br>
-
-                I'm studying at courses "Web and mobile design
-                interfaces" in IT-Academy.<br>
-
-                Ready to implement excellent projects
+            <p class=".classic_text">Hi, I'm Denis – UX/UI designer from Minsk.
+                I'm interested in design and everything connected with it.
+            </p>
+            <p> I'm studying at courses "Web and mobile design
+                interfaces" in IT-Academy.</p>
+            <p>Ready to implement excellent projects
                 with wonderful people.</p>
-            <p></p>
-            <p></p>
 
         </section>
         <section>
             <h3>Skills</h3>
             <p>I work in such programs as</p>
-            <p><img src="./images/Ps.png"><img src="./images/Ai.png"><img src="./images/Ae.png"></p>
-            <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
-                    src="./images/Star_black.png"><img src="./images/Star_black.png"><img src="./images/Star_white.png">
-            </p>
+            <div>
+                <div>
+                    <div>
+                        <p><img src="./images/Ps.png"></p>
+                    </div>
+                    <p>Adobe Photoshop</p>
+                    <div>
+                        <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                src="./images/Star_white.png">
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p><img src="./images/Ai.png"></p>
+                    </div>
+                    <p>Adobe Illustrator</p>
+                    <div>
+                        <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                src="./images/Star_black.png"><img src="./images/Star_white.png"><img
+                                src="./images/Star_white.png">
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p><img src="./images/Ae.png"></p>
+                    </div>
+                    <p>Adobe After Effects</p>
+                    <div>
+                        <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                src="./images/Star_white.png">
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p><img src="./images/Fi.png"></p>
+                    </div>
+                    <p>Figma</p>
+                    <div>
+                        <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                src="./images/Star_white.png">
+                        </p>
+                    </div>
+                </div>
+
+            </div>
 
         </section>
         <section>
             <h3>Portfolio</h3>
             <div>
-                <img src="./images/portfolio_image.png" alt="Portfolio" title="Portfolio">
+                <picture>
+                    <source srcset="./images/portfolio_image_mobile.png" media="(max-width: 1000px)">
+                    <img src="./images/portfolio_image.png" alt="Portfolio" title="Portfolio">
+                </picture>
             </div>
             <article>
                 <h3>Online fashion store - Homepage</h3>
                 <div>
-                    <img src="./images/reebok_web.png" alt="reebok" title="reebok">
+                    <picture>
+                        <source srcset="./images/reebok_web_mobile.png" media="(max-width: 1000px)">
+                        <img src="./images/reebok_web.png" alt="reebok" title="reebok">
+                    </picture>
                 </div>
             </article>
             <article>
                 <h3>Reebok Store - Concept</h3>
                 <div>
-                    <img src="./images/braun.png" alt="braun" title="braun">
+                    <picture>
+                        <source srcset="./images/braun_mobile.png" media="(max-width: 1000px)">
+                        <img src="./images/braun.png" alt="braun" title="braun">
+                    </picture>
                 </div>
             </article>
+        </section>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Feedback</legend>
+
+                    <label><span>E-mail</span>
+                        <input type="email" name="email" placeholder="example@mail.com">
+                    </label>
+                    <br>
+                    <label>Password
+                        <input type="password" name="pass" placeholder="******">
+                    </label>
+                    <br>
+                    <label>
+                        <span>Remember me</span>
+                        <input type="checkbox" name="isRemember">
+                    </label>
+
+                    <!-- <textarea placeholder="Комментрий"></textarea> -->
+
+                    <button type="submit">submit</button>
+                    <button type="reset">reset</button>
+
+                </fieldset>
+
+            </form>
         </section>
         <section>
             <h3>Contacts</h3>
@@ -86,11 +171,12 @@
                 You are welcome!</p>
             <button>Send message</button>
             <div>
-                <img src="./images/Vectorball.png" alt="Vectorball" title="Vectorball">
+                <div><img src="./images/linfedin.png" alt="Linkedin" title="Linkedin"></div>
+                <div><img src="./images/instagram.png" alt="Instagram" title="Instagram"></div>
+                <div><img src="./images/bereal.png" alt="Behance" title="Behance"></div>
+                <div><img src="./images/Vectorball.png" alt="Dribble" title="Dribble"></div>
             </div>
-
         </section>
-
 
     </main>
 
