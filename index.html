@@ -2,19 +2,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Артѣль-мастеровЪ</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <title>Сайт Денис Новик</title>
+    <link rel="stylesheet" href="./css/style.css">
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="shortcut icon" href="./images/png-transparent-figma.png">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="#" class="active" id="red">Home</a>
-            <a href="#">About me</a>
-            <a href="#">Skills</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contacts</a>
+            <a href="#home" class="active" id="red">Home</a>
+            <a href="#about_me">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacts">Contacts</a>
             <!-- <div class="wrapper"> -->
             <select class="theme" id="theme">
                 <option value="auto" selected="">Тема по-умолчанию</option>
@@ -22,10 +23,10 @@
                 <option value="light">Светлая тема</option>
             </select>
         </nav>
-        <div class="title_block">
+        <div class="title_block" id="home">
             <div>
-                <h1>Артѣль-мастеровЪ</h1>
-                <p>Мастерская всяческих искусств</p>
+                <h1>Denis<br>Novik</h1>
+                <p>UX | UI designer<br>24 years old, Minsk</p>
                 <div>
                     <button>ru</button>
                     <button>eng</button>
@@ -44,19 +45,16 @@
     </header>
 
     <main>
-        <section>
-            <h3> About me</h3>
-            <p class=".classic_text">Hi, I'm Denis – UX/UI designer from Minsk.
-                I'm interested in design and everything connected with it.
+        <section class="about_me" id="about_me">
+            <h2>About me</h2>
+            <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.
             </p>
-            <p> I'm studying at courses "Web and mobile design
-                interfaces" in IT-Academy.</p>
-            <p>Ready to implement excellent projects
-                with wonderful people.</p>
+            <p> I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
+            <p>Ready to implement excellent projects<br>with wonderful people.</p>
 
         </section>
-        <section>
-            <h3>Skills</h3>
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
             <p>I work in such programs as</p>
             <div>
                 <div>
@@ -111,33 +109,37 @@
             </div>
 
         </section>
-        <section>
-            <h3>Portfolio</h3>
-            <div>
-                <picture>
-                    <source srcset="./images/portfolio_image_mobile.png" media="(max-width: 1000px)">
-                    <img src="./images/portfolio_image.png" alt="Portfolio" title="Portfolio">
-                </picture>
-            </div>
+        <section class="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
             <article>
-                <h3>Online fashion store - Homepage</h3>
+                <div>
+                    <picture>
+                        <source srcset="./images/portfolio_image_mobile.png" media="(max-width: 1000px)">
+                        <img src="./images/portfolio_image.png" alt="Portfolio" title="Portfolio">
+                    </picture>
+                    <a href="#" target="_blank">Online fashion store - Homepage</a>
+                </div>
+            </article>
+            <article>
                 <div>
                     <picture>
                         <source srcset="./images/reebok_web_mobile.png" media="(max-width: 1000px)">
                         <img src="./images/reebok_web.png" alt="reebok" title="reebok">
                     </picture>
+                    <a href="#" target="_blank">Reebok Store - Concept</a>
                 </div>
             </article>
             <article>
-                <h3>Reebok Store - Concept</h3>
                 <div>
                     <picture>
                         <source srcset="./images/braun_mobile.png" media="(max-width: 1000px)">
                         <img src="./images/braun.png" alt="braun" title="braun">
                     </picture>
+                    <a href="#" target="_blank">Braun Landing Page - Concept</a>
                 </div>
             </article>
         </section>
+        </div>
         <section>
             <form>
                 <fieldset>
@@ -165,17 +167,18 @@
 
             </form>
         </section>
-        <section>
-            <h3>Contacts</h3>
-            <p>Want to know more or just chat?<br>
-                You are welcome!</p>
-            <button>Send message</button>
+        <section class="contacts" id="contacts">
+            <h2>Contacts</h2>
+            <p>Want to know more or just chat?<br>You are welcome!</p>
+            <a href="https://wtsp.cc/89257923900"
+                target="_blank"><button>Send message</button></a>
             <div>
-                <div><img src="./images/linfedin.png" alt="Linkedin" title="Linkedin"></div>
-                <div><img src="./images/instagram.png" alt="Instagram" title="Instagram"></div>
-                <div><img src="./images/bereal.png" alt="Behance" title="Behance"></div>
-                <div><img src="./images/Vectorball.png" alt="Dribble" title="Dribble"></div>
+                <img src="./images/linfedin.png" alt="Linkedin" title="Linkedin">
+                <img src="./images/instagram.png" alt="Instagram" title="Instagram">
+                <img src="./images/bereal.png" alt="Behance" title="Behance">
+                <img src="./images/Vectorball.png" alt="Dribble" title="Dribble">
             </div>
+            <span>Like me on<br>LinkedIn, Instagram, Behance, Dribble</span>
         </section>
 
     </main>

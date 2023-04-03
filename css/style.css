@@ -35,4 +35,34 @@ nav {
 .title_block p {
     font-size: 18px;
     line-height: 22px;
+    text-align: center;
+}
+.about_me {
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.skills, .portfolio, .contacts h2 {
+    text-align: center;
+}
+/* h2 {
+    font-size: 34px;
+    text-align: center;
+} */
+/* .portfolio h2 {
+    text-align: center;
+}
+.portfolio h3 {
+    text-decoration: underline;
+    text-align: center;
+} */
+article a {
+    display: block;
+}
+article * {
+    width: max-content;
+    margin: 0, auto;
 }
