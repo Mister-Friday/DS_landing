@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,28 +20,28 @@
             <a href="#portfolio">Portfolio</a>
             <a href="#contacts">Contacts</a>
             <!-- <div class="wrapper"> -->
-            <select class="theme" id="theme">
+            <!-- <select class="theme" id="theme">
                 <option value="auto" selected="">Тема по-умолчанию</option>
                 <option value="dark">Тёмная тема</option>
                 <option value="light">Светлая тема</option>
-            </select>
+            </select> -->
         </nav>
-        <div class="title_block" id="home">
-            <div>
+        <div id="home">
+            <div class="title_block">
                 <h1>Denis<br>Novik</h1>
                 <p>UX | UI designer<br>24 years old, Minsk</p>
-                <div>
+
+                <div class="btns">
                     <button>ru</button>
-                    <button>eng</button>
+                    <button class="active_lang">eng</button>
                 </div>
             </div>
-            <div>
+            <div class="avatar">
                 <picture>
                     <source srcset="./images/BSPP2266_mobile.png" media="(max-width: 1000px)">
                     <img src="./images/BSPP2266.png" alt="photo" title="photo">
                 </picture>
             </div>
-
         </div>
         <!-- </div> -->
 
@@ -47,139 +50,147 @@
     <main>
         <section class="about_me" id="about_me">
             <h2>About me</h2>
-            <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.
+            <p>
+                <span>Hi, I'm Denis – UX/UI designer from Minsk.</span>
+                <span>I'm interested in design and everything connected with it.</span>
             </p>
-            <p> I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
-            <p>Ready to implement excellent projects<br>with wonderful people.</p>
+            <p>
+                <span> I'm studying at courses "Web and mobile design</span>
+                <span>interfaces" in IT-Academy.</span>
+            </p>
+            <p>
+                <span>Ready to implement excellent projects</span>
+                <span>with wonderful people.</span>
+            </p>
 
-        </section>
-        <section class="skills" id="skills">
-            <h2>Skills</h2>
-            <p>I work in such programs as</p>
-            <div>
+
+            </section>
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <p>I work in such programs as</p>
                 <div>
                     <div>
-                        <p><img src="./images/Ps.png"></p>
+                        <div>
+                            <p><img src="./images/Ps.png"></p>
+                        </div>
+                        <p>Adobe Photoshop</p>
+                        <div>
+                            <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                    src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                    src="./images/Star_white.png">
+                            </p>
+                        </div>
                     </div>
-                    <p>Adobe Photoshop</p>
                     <div>
-                        <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
-                                src="./images/Star_black.png"><img src="./images/Star_black.png"><img
-                                src="./images/Star_white.png">
-                        </p>
+                        <div>
+                            <p><img src="./images/Ai.png"></p>
+                        </div>
+                        <p>Adobe Illustrator</p>
+                        <div>
+                            <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                    src="./images/Star_black.png"><img src="./images/Star_white.png"><img
+                                    src="./images/Star_white.png">
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div>
                     <div>
-                        <p><img src="./images/Ai.png"></p>
+                        <div>
+                            <p><img src="./images/Ae.png"></p>
+                        </div>
+                        <p>Adobe After Effects</p>
+                        <div>
+                            <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                    src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                    src="./images/Star_white.png">
+                            </p>
+                        </div>
                     </div>
-                    <p>Adobe Illustrator</p>
                     <div>
-                        <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
-                                src="./images/Star_black.png"><img src="./images/Star_white.png"><img
-                                src="./images/Star_white.png">
-                        </p>
+                        <div>
+                            <p><img src="./images/Fi.png"></p>
+                        </div>
+                        <p>Figma</p>
+                        <div>
+                            <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                    src="./images/Star_black.png"><img src="./images/Star_black.png"><img
+                                    src="./images/Star_white.png">
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <p><img src="./images/Ae.png"></p>
-                    </div>
-                    <p>Adobe After Effects</p>
-                    <div>
-                        <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
-                                src="./images/Star_black.png"><img src="./images/Star_black.png"><img
-                                src="./images/Star_white.png">
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <p><img src="./images/Fi.png"></p>
-                    </div>
-                    <p>Figma</p>
-                    <div>
-                        <p><img src="./images/Star_black.png"><img src="./images/Star_black.png"><img
-                                src="./images/Star_black.png"><img src="./images/Star_black.png"><img
-                                src="./images/Star_white.png">
-                        </p>
-                    </div>
+
                 </div>
 
+            </section>
+            <section class="portfolio" id="portfolio">
+                <h2>Portfolio</h2>
+                <article>
+                    <div>
+                        <picture>
+                            <source srcset="./images/portfolio_image_mobile.png" media="(max-width: 1000px)">
+                            <img src="./images/portfolio_image.png" alt="Portfolio" title="Portfolio">
+                        </picture>
+                        <a href="#" target="_blank">Online fashion store - Homepage</a>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <picture>
+                            <source srcset="./images/reebok_web_mobile.png" media="(max-width: 1000px)">
+                            <img src="./images/reebok_web.png" alt="reebok" title="reebok">
+                        </picture>
+                        <a href="#" target="_blank">Reebok Store - Concept</a>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <picture>
+                            <source srcset="./images/braun_mobile.png" media="(max-width: 1000px)">
+                            <img src="./images/braun.png" alt="braun" title="braun">
+                        </picture>
+                        <a href="#" target="_blank">Braun Landing Page - Concept</a>
+                    </div>
+                </article>
+            </section>
             </div>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Feedback</legend>
 
-        </section>
-        <section class="portfolio" id="portfolio">
-            <h2>Portfolio</h2>
-            <article>
+                        <label><span>E-mail</span>
+                            <input type="email" name="email" placeholder="example@mail.com">
+                        </label>
+                        <br>
+                        <label>Password
+                            <input type="password" name="pass" placeholder="******">
+                        </label>
+                        <br>
+                        <label>
+                            <span>Remember me</span>
+                            <input type="checkbox" name="isRemember">
+                        </label>
+
+                        <!-- <textarea placeholder="Комментрий"></textarea> -->
+
+                        <button type="submit">submit</button>
+                        <button type="reset">reset</button>
+
+                    </fieldset>
+
+                </form>
+            </section>
+            <section class="contacts" id="contacts">
+                <h2>Contacts</h2>
+                <p>Want to know more or just chat?<br>You are welcome!</p>
+                <a href="https://wtsp.cc/89257923900" target="_blank"><button>Send message</button></a>
                 <div>
-                    <picture>
-                        <source srcset="./images/portfolio_image_mobile.png" media="(max-width: 1000px)">
-                        <img src="./images/portfolio_image.png" alt="Portfolio" title="Portfolio">
-                    </picture>
-                    <a href="#" target="_blank">Online fashion store - Homepage</a>
+                    <img src="./images/linfedin.png" alt="Linkedin" title="Linkedin">
+                    <img src="./images/instagram.png" alt="Instagram" title="Instagram">
+                    <img src="./images/bereal.png" alt="Behance" title="Behance">
+                    <img src="./images/Vectorball.png" alt="Dribble" title="Dribble">
                 </div>
-            </article>
-            <article>
-                <div>
-                    <picture>
-                        <source srcset="./images/reebok_web_mobile.png" media="(max-width: 1000px)">
-                        <img src="./images/reebok_web.png" alt="reebok" title="reebok">
-                    </picture>
-                    <a href="#" target="_blank">Reebok Store - Concept</a>
-                </div>
-            </article>
-            <article>
-                <div>
-                    <picture>
-                        <source srcset="./images/braun_mobile.png" media="(max-width: 1000px)">
-                        <img src="./images/braun.png" alt="braun" title="braun">
-                    </picture>
-                    <a href="#" target="_blank">Braun Landing Page - Concept</a>
-                </div>
-            </article>
-        </section>
-        </div>
-        <section>
-            <form>
-                <fieldset>
-                    <legend>Feedback</legend>
-
-                    <label><span>E-mail</span>
-                        <input type="email" name="email" placeholder="example@mail.com">
-                    </label>
-                    <br>
-                    <label>Password
-                        <input type="password" name="pass" placeholder="******">
-                    </label>
-                    <br>
-                    <label>
-                        <span>Remember me</span>
-                        <input type="checkbox" name="isRemember">
-                    </label>
-
-                    <!-- <textarea placeholder="Комментрий"></textarea> -->
-
-                    <button type="submit">submit</button>
-                    <button type="reset">reset</button>
-
-                </fieldset>
-
-            </form>
-        </section>
-        <section class="contacts" id="contacts">
-            <h2>Contacts</h2>
-            <p>Want to know more or just chat?<br>You are welcome!</p>
-            <a href="https://wtsp.cc/89257923900"
-                target="_blank"><button>Send message</button></a>
-            <div>
-                <img src="./images/linfedin.png" alt="Linkedin" title="Linkedin">
-                <img src="./images/instagram.png" alt="Instagram" title="Instagram">
-                <img src="./images/bereal.png" alt="Behance" title="Behance">
-                <img src="./images/Vectorball.png" alt="Dribble" title="Dribble">
-            </div>
-            <span>Like me on<br>LinkedIn, Instagram, Behance, Dribble</span>
-        </section>
+                <span>Like me on<br>LinkedIn, Instagram, Behance, Dribble</span>
+            </section>
 
     </main>
 
