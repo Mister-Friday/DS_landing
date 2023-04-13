@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,109 +14,16 @@
     color: #070707;
 }
 
-header {
-    width: 940px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #828282;
-    height: 88px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #828282;
-    /* height: 88px; */
-    line-height: 88px;
-    /* background-color: aqua; */
-    /* margin: 50px; */
-}
-
-nav .active {
-    color: black;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.avatar {
-    margin-bottom: 80px;
-}
-.title_block {
-    display: flex;
-    justify-content: space-between;
-    min-height: 188px;
-    align-items: center;
-
-}
-
-.title_block h1 {
-    font-size: 47px;
-    line-height: 59px;
-    color: #070707;
-}
-
-.title_block p {
-    margin-top: 50px;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-}
-.btns button {
-    background: none;
-    border: none;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #828282;
-    font-weight: bold;
-}
-
-.btns {
-    transform: rotate(270deg) translate(-10px, 25px);;
-}
-button.active_lang {
-    color: black;
-    border-left: 2px solid black;
-    padding: 5px;
-}
-.avatar {
-    margin-bottom: 104px;
-}
-.about_me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* text-align: center; */
-    background-color: #f6f6f6;
-    width: 100%;
-}
-.about_me > p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 42px;
-}
-.about_me h2 {
-    margin: 120px 0 18px 0;
-    font-size: 34px;
-    line-height: 42px;
-}
 p, nav a {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
 }
+
 .skills, .portfolio, .contacts h2 {
     text-align: center;
 }
+
 /* h2 {
     font-size: 34px;
     text-align: center;

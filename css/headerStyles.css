@@ -1,0 +1,131 @@
+header {
+    width: 100%;
+    max-width: 940px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+    height: 88px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #828282;
+    /* height: 88px; */
+    line-height: 88px;
+    /* background-color: aqua; */
+    /* margin: 50px; */
+    font-family: "Gilroy-Bold";
+}
+
+nav .active {
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gilroy-Medium";
+}
+
+.avatar {
+    margin-bottom: 80px;
+}
+
+.title_block {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    min-height: 188px;
+    /* align-items: center; */
+
+}
+
+.title_block h1 {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 297px;
+    /* font-size: 47px; */
+    font-family: "Gilroy-Bold";
+    /* line-height: 59px; */
+    color: #070707;
+}
+
+.title_block p {
+    display: inline-block;
+    margin-top: 50px;
+    /* margin-right: 297px; */
+    font-size: 18px;
+    /* line-height: 22px; */
+    text-align: center;
+}
+
+.btns button {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #828282;
+    font-weight: bold;
+}
+
+.btns {
+    float: right;
+    transform: rotate(180deg) translate(0, -10px);
+    margin-top: 70px;
+    /* transform: rotate(270deg) translate(-10px, 25px); */
+}
+
+.btns span {
+    writing-mode: vertical-lr;
+}
+
+button.active_lang {
+    color: black;
+    border-left: 2px solid black;
+    padding: 5px;
+}
+
+.avatar {
+    margin-bottom: 104px;
+}
+
+.avatar img {
+    width: 100%;
+    max-width: 940px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: none;
+    }
+
+    .btns {
+        display: none;
+    }
+
+    .title_block>h1 {
+        margin: 65px 0 0 26px;
+    }
+
+    .title_block > p {
+        display: block;
+        margin: 23px;
+        text-align: left;
+    }
+
+    .avatar {
+        margin-top: 37px;
+        margin-bottom: 83px;
+    }
+
+    header {
+        padding: 29px;
+    }
+}
