@@ -1,0 +1,45 @@
+footer {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+footer > h3 {
+    font-size: 34px;
+    line-height: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 114px;
+    margin-bottom: 20px;
+}
+
+footer button {
+    width: 180px;
+    height: 42px;
+    background-color: black;
+    border: none;
+    border-radius: 21px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 30px;
+    margin-bottom: 86px;
+}
+
+.contacts_links {
+    max-width: 342px;
+    width: 100vw;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .contacts {
+
+}
+
+.contacts > img {
+
+} */

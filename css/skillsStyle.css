@@ -6,8 +6,8 @@ section.skills {
     flex-direction: column;
 }
 
-.skills_conteiner {
-    border: 1px solid black;
+.skills_elements {
+    /* border: 1px solid black; */
     display: grid;    
     grid-template-columns: repeat(auto-fit, 166px);
     gap: 80px 90px;
@@ -15,9 +15,24 @@ section.skills {
     width: 100vw;
 }
 
-.skills_conteiner > div {
+.skills_elements > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.skills_elements > div > img {
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+}
+
+.skills_elements > div > div {
+    /* position: absolute; */
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
 }
