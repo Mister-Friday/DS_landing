@@ -26,7 +26,16 @@ footer button {
     line-height: 22px;
     margin-top: 30px;
     margin-bottom: 86px;
+    align-items: center;
 }
+
+footer p {
+    text-align: center;
+}
+
+/* .footer > p:nth-child(2) {
+    margin-top: 42px;
+} */
 
 .contacts_links {
     max-width: 342px;

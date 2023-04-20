@@ -6,6 +6,15 @@ section.skills {
     flex-direction: column;
 }
 
+section.skills > h2 {
+    margin-top: 91px;
+    margin-bottom: 69px;
+}
+
+section.skills > p {
+    margin-bottom: 83px;
+}
+
 .skills_elements {
     /* border: 1px solid black; */
     display: grid;    
@@ -23,9 +32,17 @@ section.skills {
 }
 
 .skills_elements > div > img {
-    width: 26px;
-    height: 26px;
-    object-fit: cover;
+    width: 89px;
+    height: 89px;
+    object-fit: contain;
+}
+
+.skills_elements > div > p {
+    max-width: 100px;
+    text-align: center;
+    margin-top: 23px;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .skills_elements > div > div {
@@ -35,4 +52,21 @@ section.skills {
     width: 100%;
     justify-content: center;
 
+}
+
+@media (max-width: 940px) {
+    .skills_elements {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+@media (max-width: 300px) {
+    .skills_elements {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        
+    }
 }
